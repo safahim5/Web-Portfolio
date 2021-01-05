@@ -6,19 +6,20 @@ body{
 h1 {
     font-size: 50px;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
+
 .half-width {
-    width: 500px;
+    width: 40%;
     float: left;
-    margin-left:70px;
-    margin-right: 10px;
-    padding-left: 10px;
+    margin-left:5%;
+    padding-left:2%;
 }
 .half-width img{
     width: 100%;
-    margin-right: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 10px;
 }
 .Top-Banner{
@@ -36,6 +37,59 @@ section{
     padding: 5px 10px;
     color: white;
     border-radius: 10px;
-
-
 }
+.adjust{
+    width:40%;
+    margin-left:5%;
+    padding-left:2%;
+    margin-top:175px;
+}
+.adjust img{
+    width: 100%;
+    float: left;
+}
+h2{
+    font-size: 50px;
+}
+#text{
+    width:40%;
+    float: right;
+    margin-left:5%;
+    padding-left:2%;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.Dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom:320px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    margin-bottom:300px;
+    background-color:white;
+}
+.Eexperience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: -200px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, lightsalmon ,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, blue, cyan) ;
+    border-image-slice: 1;
+}
+footer p{
+    text-align:center;
+    margin-right: 60px;
+}
+
